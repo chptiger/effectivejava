@@ -1,4 +1,4 @@
-package designpattern;
+package designpatterns;
 
 import org.junit.Test;
 

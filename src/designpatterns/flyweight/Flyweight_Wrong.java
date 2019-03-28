@@ -1,4 +1,4 @@
-package designpattern;
+package designpatterns.flyweight;
 
 import java.util.HashMap;
 import java.util.Random;
@@ -7,7 +7,6 @@ import org.junit.Test;
 
 /**
  * https://www.geeksforgeeks.org/flyweight-design-pattern/
- * 
  * To avoid java.lang.OutOfMemoryError
  * 
  * Intrinsic V.S Extrinsic States: 
@@ -26,8 +25,12 @@ import org.junit.Test;
  * 
  * each time they got different weapons.
  * 
+ * @TODO
+ * 
+ * why the result is always Terrorist ?
+ * 
  */
-public class Flyweight {
+public class Flyweight_Wrong {
 	public static final String TERRORIST = "Terrorist";
 	public static final String COUNTER_TERRORIST = "Counter_Terrorist";
 
@@ -70,11 +73,11 @@ class PlayerFactory {
 			return hm.get(type);
 		} else {
 			switch(type) {
-			case Flyweight.TERRORIST:
+			case Flyweight_Wrong.TERRORIST:
 				System.out.println("Terrorist Created");
 				player = new Terrorist();
 				break;
-			case Flyweight.COUNTER_TERRORIST :
+			case Flyweight_Wrong.COUNTER_TERRORIST :
 				System.out.println();
 				player = new Terrorist();
 				break;
