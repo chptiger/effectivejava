@@ -1,4 +1,0 @@
-Item 1: Consider static factory methods instead of constructors
-	1. unlike constructors, they have names.
-	2. unlike constructors, they are not required to create a new object each time they’re invoked.
-	3. unlike constructors, they can return an object of any subtype of their return type.

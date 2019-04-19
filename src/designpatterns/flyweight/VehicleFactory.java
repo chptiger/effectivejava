@@ -51,7 +51,7 @@ public class VehicleFactory {
 
 	@Test
 	public void test_flyweight() {
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 6; i++) {
 			Vehicle car = createVehicle(getRandColor());
 			car.start();
 		}

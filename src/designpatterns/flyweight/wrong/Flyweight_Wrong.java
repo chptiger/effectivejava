@@ -1,4 +1,4 @@
-package designpatterns.flyweight;
+package designpatterns.flyweight.wrong;
 
 import java.util.HashMap;
 import java.util.Random;

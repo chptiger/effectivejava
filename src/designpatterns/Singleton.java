@@ -1,7 +1,5 @@
 package designpatterns;
 
-import java.security.Signature;
-
 import org.junit.jupiter.api.Test;
 
 public class Singleton {
