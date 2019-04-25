@@ -24,7 +24,11 @@ class User {
 	 * 	3. unlike constructors, they can return an object of any sub-type of their return type.  -> return subType
 	 * 		e.x. Collections 
 	 *  4. the class of the returned object can vary from call to call as a function of the input parameters.
-	 *  5. the class of the returned object need not exist when the class containing the method is written.
+	 *  5. the class of the returned object need not exist when the class containing the method is written.  --> bridge pattern
+	 *  
+	 * Limitation:
+	 *  1. classes without public or protected constructors cannot be subclassed.
+	 *  2. they are hard for programmers to find.
 	 */
 	public static User createWithDefaultCountry(String name, String email) {
 		return new User(name, email, "United States");
