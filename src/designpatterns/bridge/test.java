@@ -3,7 +3,7 @@ package designpatterns.bridge;
 import org.junit.Test;
 
 /**
- * input the parameters. hidden the implementation of the method.
+ * https://www.geeksforgeeks.org/builder-pattern-in-java/
  */
 public class test {
 
