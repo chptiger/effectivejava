@@ -1,0 +1,5 @@
+I do not understand hierarchies Builer pattern.
+
+Note that Pizza.Builder is a generic type with a recursive type parameter (Item 30). 
+This, along with the abstract self method, allows method chaining to work properly in subclasses, without the need for casts. 
+This workaround for the fact that Java lacks a self type is known as the simulated self-type idiom.
