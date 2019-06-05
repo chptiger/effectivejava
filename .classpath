@@ -6,5 +6,6 @@
 	<classpathentry kind="lib" path="/Users/xinxu/Documents/j2ee books/jars/slf4j-jdk14-1.7.21.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 8 [1.8.0_112]"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/Users/xinxu/Downloads/awaitility-1.3.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
